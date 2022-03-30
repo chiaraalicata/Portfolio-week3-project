@@ -66,7 +66,9 @@ p {
   text-align: center;
   display: block;
 }
-
+.title {
+  padding-bottom: 30px;
+}
 .about-paragraphs {
   margin: 30px 0;
 }
@@ -85,4 +87,42 @@ p {
 
 .email-link:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 576px) {
+  .greetings {
+    font-size: 35px;
+  }
+  .name {
+    font-size: 40px;
+  }
+  .nationality {
+    font-size: 18px;
+    padding-top: 5px;
+  }
+  .index-pic {
+    display: none;
+  }
+  h2.title,
+  .index-text {
+    text-align: center;
+  }
+  a.primary-link,
+  a.secondary-link {
+    margin-top: 40px;
+    justify-content: center;
+    padding: 13px;
+    font-size: 20px;
+    text-align: center;
+    display: block;
+  }
+  .index-text {
+    font-size: 20px;
+    padding: 10px;
+  }
+
+  .about-pic {
+    width: 250px;
+    margin: 20px 60px;
+  }
 }
